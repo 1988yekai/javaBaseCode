@@ -73,6 +73,13 @@ public class FirstSample {
 3. /\*\*......*/，这种方式和第二种方式相似。这种格式是为了便于javadoc程序自动生成文档。
 ##3.3 java 数据类型
 java是强类型语言。有8种基本类型（primitive type），4种整型、2种浮点类型、char、boolean；引用类型：class
+java合法的隐式转换
+               char(->int)          
+bit -> short -> int -> long
+                (int)->double
+以上转换无精度损失
+int -> float; long -> float; long -> double;有精度损失。
+
 ##3.4 java 变量
 ###3.4.1 变量
 - java中每一个变量属于一种类型，声明变量时类型位于变量之前。
